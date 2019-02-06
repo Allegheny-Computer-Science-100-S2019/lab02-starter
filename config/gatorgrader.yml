@@ -1,0 +1,29 @@
+---
+name: cmpsc-100-spring-2019-lab2
+break: true
+indent: 4
+---
+src/main:
+    java:
+        labtwo/DisplayGraphicalScene.java:
+            --single 10 --language Java
+            --multi 3 --language Java
+            --fragment "new Date(" --count 1
+            --fragment "SCENE_HEIGHT" --count 2
+            --fragment "SCENE_WIDTH" --count 2
+            --fragment "int" --count 3
+            --fragment " + " --count 2
+            --fragment " - " --count 2
+            --fragment "Color" --count 5
+            --fragment "setFill(" --count 5
+            --fragment "new Rectangle" --count 3
+            --fragment "new Ellipse" --count 2
+            --fragment "setStrokeWidth(" --count 2
+            --fragment "setTitle(" --count 1
+            --fragment "setScene(" --count 1
+            --fragment "show(" --count 1
+
+writing/reflection.md:
+    --paragraphs 2 --exact
+    --words 150
+--commits 4
