@@ -11,10 +11,13 @@ import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 import java.util.Date;
+// TODO: import Scanner
 
 
+// TODO: add Javadoc comment
 public class DisplayGraphicalScene extends Application {
 
+  // TODO: add Javadoc comment
   public void start(Stage primaryStage) {
     // TODO: create an instance of the Scanner
 
@@ -23,7 +26,7 @@ public class DisplayGraphicalScene extends Application {
 
 
     // TODO: complete the command below by specifying the correct variable inside paranthesis
-    //primaryStage.setTitle(
+    primaryStage.setTitle(
 
     // TODO: ask the user for r,g,b values
 
