@@ -38,19 +38,16 @@ additional tests set by the [GatorGrader tool](https://github.com/GatorEducator/
 of your implementation:
 
 * The `DisplayGraphicalScene` must:
-  * Contain at least ten single-line comments and three multi-line comments
-  * Declare and use at least three `int` variables to store the objects' parameters
-   such as x and y values and the radius
-  * Use at least two addition and two subtraction operations to calculate the positioning of objects using the declared `int` variables
-  * Use the declared `SCENE_HEIGHT` variable
-  * Use the declared `SCENE_WIDTH` variable
-  * Create at least five colors using the Color class and the `setFill` method call
-  * Create at least three rectangles
-  * Create at least two ellipses
-  * Use `setStrokeWidth` method at least twice
-  * Set a title for the scene that contains your name
-  * Display the Date
-  * Correctly set up and display the stage with the scene containing objects
+* Contain at least ten single-line comments and three multi-line comments.
+* Create an instance of the Scanner class and its appropriate methods.
+* Declare and use at least one String variable to store user’s preferred title.
+* Declare and use at least three int variables to store the rgb values for a user defined color.
+* Create at least three colors using the Color class (may use existing colors, e.g. RED) and the setFill method call.
+* Create at least three rectangles.
+* Create at least two ellipses.
+* Set a title for the scene that contains user-specified title.
+* Display the Date in the title.
+* Correctly set up and display the stage with the scene containing objects.
 
 When you use the `git commit` command to transfer your source code to your
 GitHub repository, [Travis CI](https://travis-ci.com/) will initialize a build
